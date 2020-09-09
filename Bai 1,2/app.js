@@ -1,7 +1,7 @@
 // 1
 
 function findOppositeNumber(n,fistNum){
-    if(n <= 4 && n <= 20 && n % 2 == 0){
+    if(4 <=  n <= 20 && n % 2 == 0){
         
     }
 }
@@ -21,6 +21,8 @@ function findOppositeNumber(n,fistNum){
 
 const a = "abcdef";
 const b = "xyzt";
+const c = "abc"
+const d = "xyz"
 function merge2String(a,b){
         let s = '';
         for (let i = 0; i < a.length; i++) {
@@ -36,7 +38,8 @@ function merge2String(a,b){
         }
         return s;
 }
-alert(merge2String(a,b))
+console.log(merge2String(a,b))
+console.log(merge2String(c,d))
 
 
 

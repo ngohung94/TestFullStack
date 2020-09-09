@@ -11,13 +11,14 @@
     top: 0;
     right: 0; 
     z-index: 10000;
-    
 }
 .nav-bar ul {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
+
 }
+
 .nav-bar ul li {
     padding: 20px;
     color: #ffffff;
@@ -27,6 +28,12 @@
 .nav-bar ul li a {
     color: #ffffff;
 }
+.nav-bar ul li a:hover{
+    border-bottom: 3px solid red;
+    transition: all 0.5s;
+}
+
+
 
 /*  */
 .container {
